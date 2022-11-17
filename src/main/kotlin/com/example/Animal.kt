@@ -27,8 +27,8 @@ data class Dog (
 
 @Serdeable
 data class Cat (
-        override val field1: String,
-        override val field2: Number
+    override val field1: String,
+    override val field2: Number
 ): Animal(field1, field2)
 
 
